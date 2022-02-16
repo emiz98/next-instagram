@@ -20,7 +20,7 @@ export default NextAuth({
 
   //    custom login screen
   pages: {
-    signIn: '/auth/signinPage',
+    signIn: '/auth/signin',
   },
   callbacks: {
     //Menura Adithya --> menura_adithya

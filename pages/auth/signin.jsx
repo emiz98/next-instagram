@@ -1,7 +1,7 @@
-import { getProviders, signIn } from 'next-auth/react'
+import { getProviders, signIn as SignIntoProvider } from 'next-auth/react'
 import Header from '../../components/Header'
 
-function signinPage({ providers }) {
+function signin({ providers }) {
   return (
     <>
       <Header />
@@ -20,7 +20,9 @@ function signinPage({ providers }) {
             <div key={provider.name}>
               <button
                 className="rounded-lg bg-blue-500 p-3 text-white"
-                onClick={() => signIn(provider.id, { callbackUrl: '/' })}
+                onClick={() =>
+                  SignIntoProvider(provider.id, { callbackUrl: '/' })
+                }
               >
                 Sign in with {provider.name}
               </button>
@@ -42,4 +44,4 @@ export async function getServerSideProps() {
   }
 }
 
-export default signinPage
+export default signin
