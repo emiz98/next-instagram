@@ -23,13 +23,6 @@ export default NextAuth({
     signIn: '/auth/signin',
   },
   callbacks: {
-    async jwt({ token, account }) {
-      // Persist the OAuth access_token to the token right after signin
-      if (account) {
-        token.accessToken = account.access_token
-      }
-      return token
-    },
     //Menura Adithya --> menura_adithya
     async session({ session, token, user }) {
       session.user.username = session.user.name
