@@ -1,5 +1,5 @@
 # Instagram Clone
-![Readme Image](https://github.com/emiz98/next-instagram/blob/master/readme.jpg?raw=true)
+![Readme_Image](https://github.com/emiz98/next-instagram/blob/main/readme.jpg?raw=true)
 <br/>
 
 ## About Instagram
