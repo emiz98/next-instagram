@@ -1,27 +1,40 @@
-# Next.js + Tailwind CSS Example
+# Instagram Clone
+![Readme Image](https://github.com/emiz98/next-instagram/blob/master/readme.jpg?raw=true)
+<br/>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## About Instagram
+Instagram is a free, online photo-sharing application and social network platform.
 
-## Preview
+<br/>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Description
+This build was inspired by Instagram. The frontend of the app was build using Next JS which is a framework for React JS. The backend was Firebase and also included firebase authentication using next auth. The state management of the app is done using Recoil JS to avoid prop drilling. Random users were generated using an awesome library called blaver.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<br/>
 
-## Deploy your own
+## Features
+🚀 User Authentication using Next Auth <br/>
+🚀 Creating Posts <br/>
+🚀 Liking on Posts <br/>
+🚀 Commenting on Posts <br/>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+<br/>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Tech Stack
+<p float="left">
+  <img src="https://cdn.sanity.io/images/1z5g6za5/production/ea0d729f383fe9f113c7d2da95af5a39eecfa226-64x64.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+  <img src="https://cdn.sanity.io/images/1z5g6za5/production/469ae564e81667f04a3b2ce4ae61d1de7788064d-300x300.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/> 
+  <img src="https://cdn.sanity.io/images/1z5g6za5/production/f96e4033244fcfe56d182f8f4ddf36981cca7de1-143x134.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/> 
+  <img src="https://cdn.sanity.io/images/1z5g6za5/production/26c8efbd48f59648e141e23706ea65bb5ef9a163-24x24.svg?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+  <img src="https://cdn.sanity.io/images/1z5g6za5/production/97986d3dd7e897b83e06a41aaf9ee7a8de146685-768x768.png?w=2000&fit=max&auto=format" width="60"  style="padding-right:20px"/>
+</p>
 
-## How to use
+<br/>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Project Goals & Outcomes
+✔️ Learning React & Next JS <br/>
+✔️ Learning Authenication <br/>
+✔️ Learning SSR <br/>
+✔️ Learning State Management Libraries <br/>
+✔️ Learning Firebase <br/>
+✔️ Learning Tailwind CSS
