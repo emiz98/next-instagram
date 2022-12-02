@@ -11,11 +11,12 @@
     "@tailwindcss/forms": "^0.4.0",
     "blaver": "^6.6.7",
     "firebase": "^9.6.6",
+    "moment": "^2.29.2",
     "next": "latest",
     "next-auth": "4.0.0-beta.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-moment": "^1.1.1",
+    "react-moment": "^1.1.2",
     "recoil": "^0.6.1",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
